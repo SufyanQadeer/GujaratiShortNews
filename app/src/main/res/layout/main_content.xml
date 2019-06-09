@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="screenTapped">
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swiperefreshlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000">
+
+
+            <com.example.gujaratishortnews.VerticalViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </com.example.gujaratishortnews.VerticalViewPager>
+
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topbar"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:alpha="0.9"
+            android:background="#ffffff">
+
+              <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/top"
+                android:text="    Go to Top"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:background="@android:color/transparent"
+                  android:onClick="topbuttonclicked"/>
+             <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableRight="@drawable/setting"
+                android:text="Settings    "
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:background="@android:color/transparent"
+                android:onClick="settingbuttonclicked"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

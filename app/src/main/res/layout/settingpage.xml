@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        android:background="@color/colorSplash"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/back_buttonn"
+            android:background="@color/colorSplash"
+            android:layout_marginLeft="10dp"
+            android:onClick="backbuttonclicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+           android:layout_gravity="center_vertical"
+           android:textStyle="bold"
+            android:paddingLeft="10dp"
+            style="@style/TextAppearance.AppCompat.Headline"/>
+
+    </LinearLayout>-->
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/notitext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:textSize="15sp"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Switch
+            android:id="@+id/notiswitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="#D8D2D2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/cardimagedisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show images on cards"
+            android:textSize="15sp"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Switch
+            android:id="@+id/imageswitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="#D8D2D2"
+        android:layout_marginBottom="10dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/feedback"
+        android:gravity="left|center_vertical"
+        android:text="    Feedback"
+        android:textAllCaps="false"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:onClick="feedbackclicked"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/rateus"
+        android:gravity="left|center_vertical"
+        android:text="    Rate us on Play Store"
+        android:textAllCaps="false"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:onClick="rateusclicked"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/rename"
+        android:gravity="left|center_vertical"
+        android:text="    Share App"
+        android:textAllCaps="false"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:onClick="shareappclicked"/>
+
+</LinearLayout>
+</LinearLayout>
+
+

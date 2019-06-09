@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:onClick="screenTapped">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/placeholderimage"
+                tools:srcCompat="@tools:sample/backgrounds/scenic"
+                android:contentDescription="TODO" />
+
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="ફોક્સકોનના ચેરમેને કહ્યું- ભારતમાં આ વર્ષે મોટા પાયે આઈફોનનું પ્રોડક્શન શરૂ કરીશું."
+                android:textColor="#000000"
+                android:textSize="18.5sp"
+                android:textStyle="bold"
+                android:lineSpacingMultiplier="1"/>
+
+
+
+                <TextView
+                    android:id="@+id/detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ફગોના જણાવ્યા પ્રમાણે તેમની કંપની ભારતમાં વ્યવસાયનો વિકાસ કરવા માંગે છે. આ કારણે વડાપ્રધાન નરેન્દ્ર મોદીએ ભારત આવવાનું પણ આમંત્રણ આપ્યું છે.તેમને જણાવ્યું કે એપલ બેંગલુરુના પ્લાન્ટમાં ઘણાં વર્ષોથી જૂના ફોનનું પ્રોડક્શન કરી રહ્યું છે.હવે નવા મોડલ વધુ બનાવવામાં આવશે.આઈફોન મોંઘા થવાના કારણે ભારતમાં એપલનું વેચાણ ઘટ્યું છે. જોકે સ્થાનિક સ્તર પર પ્રોડક્શન શરૂ કરવાથી ભારતમાં આઈફોન સસ્તા થઈ જશે કારણ કે 20 ટકા ઈમ્પોર્ટ ડ્યુટી લાગશે નહિ. 2018માં ભારતમાં 17 લાખ આઈફોનનું વેચાણ થયું હતું."
+                    android:textSize="16.5sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="6dp"
+                    android:lineSpacingMultiplier="1"/>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="15, April 2018"
+                        android:id="@+id/date"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorSplash"/>
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/shareoncard"
+                        android:onClick="shareclicked"/>
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

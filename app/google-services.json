@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "289997438185",
+    "firebase_url": "https://gujaratishortnews.firebaseio.com",
+    "project_id": "gujaratishortnews",
+    "storage_bucket": "gujaratishortnews.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289997438185:android:f145c996c6523cda",
+        "android_client_info": {
+          "package_name": "com.example.gujaratishortnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289997438185-5p682e971ise57gh7rq09gbo0c0tn1ds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gujaratishortnews",
+            "certificate_hash": "6148c32890aab7b124d0c7f60cfca3c723020873"
+          }
+        },
+        {
+          "client_id": "289997438185-7idqper5i86cuht55jdpb2ec29396s1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu6mdBdNyP7w7s7Qez8cEMGhMd0VJfaJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289997438185-7idqper5i86cuht55jdpb2ec29396s1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
